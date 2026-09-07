@@ -3,7 +3,7 @@ class Sensorconfig {
   double minimum = 0;
   double maximum = 50;
 
-  Sensorconfig(this.sensorName, {this.minimum = 0, this.maximum = 0});
+  Sensorconfig(this.sensorName, {this.minimum = 0, this.maximum = 50});
 
   void checkSensorValue(double value) {
     print(sensorName);
